@@ -1,0 +1,30 @@
+{
+  "name": "debuglog4js",
+  "version": "1.0.3",
+  "description": "debuglog4js is an logging tool to save your log and errors in a file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "log",
+    "node",
+    "js",
+    "error",
+    "console",
+    "debug"
+  ],
+  "author": "sainanky",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sainanky/debuglog4js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sainanky/debuglog4js/issues"
+  },
+  "homepage": "https://github.com/sainanky/debuglog4js#readme"
+}
