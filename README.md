@@ -15,10 +15,11 @@ npm install debuglog4js --save
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-require("debuglog4js");  // import debuglog4js package
-console.file("./app.log"); // this will create an file or either you can create 
-console.log(`Log - ${new Date()} - this is an demo new`);   // call function to log your log data
-console.error(`Log - ${new Date()} - this is an demo new for error`); // call function to log your error data```
+const debug = require("debuglog4js");  // import debuglog4js package
+debug.log('sample log');    //general logs
+debug.log('sample log for user = 24');   //general logs with user id or other details
+debug.error(`Error comes in = ${err}`);    //error logs
+```
  
 Then debuglog4js will cretae an file named app.log on your root directory where you can see your logs.
  
