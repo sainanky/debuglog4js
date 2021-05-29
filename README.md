@@ -16,9 +16,11 @@ Install the dependencies and devDependencies and start the server.
 
 ```sh
 const debug = require("debuglog4js");  // import debuglog4js package
-debug.log('sample log');    //general logs
-debug.log('sample log for user = 24');   //general logs with user id or other details
-debug.error(`Error comes in = ${err}`);    //error logs
+debug.log('sample log', 6);
+debug.error(`error for ${err}`);
+debug.info(`user = ${user}`);
+debug.debug('debug details for user ', user);
+debug.warning('this is warning')
 ```
  
 Then debuglog4js will cretae an file named app.log on your root directory where you can see your logs.

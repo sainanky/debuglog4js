@@ -1,6 +1,6 @@
 {
   "name": "debuglog4js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "debuglog4js is an logging tool to save your log and errors in a file.",
   "main": "index.js",
   "scripts": {
